@@ -68,7 +68,7 @@
     [self.socket disconnect];//断开socket连接
     
 }
-
+//连接失败的代理
 - (void)onSocketDidDisconnect:(AsyncSocket *)sock{
 
     NSLog(@"连接失败 ，%ld",sock.userData);
@@ -81,6 +81,8 @@
         return;
     }
 }
+
+//返回的数据
 - (void)onSocket:(AsyncSocket *)sock didReadData:(NSData *)data withTag:(long)tag{
 
     [self.socket readDataWithTimeout:-1 tag:0];
@@ -89,4 +91,5 @@
     NSLog(@"===%@",aStr);
     NSLog(@"%@",data);
 }
+
 @end

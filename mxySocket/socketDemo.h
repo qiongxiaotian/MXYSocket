@@ -8,14 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "AsyncSocket.h"
-#define DEFINE_SHARED_INSTANCE_USING_BLOCK(block) \
-static dispatch_once_t onceToken = 0; \
-__strong static id sharedInstance = nil; \
-dispatch_once(&onceToken, ^{ \
-sharedInstance = block(); \
-}); \
-return sharedInstance; \
-
+//#define DEFINE_SHARED_INSTANCE_USING_BLOCK(block) \
+//static dispatch_once_t onceToken = 0; \
+//__strong static id sharedInstance = nil; \
+//dispatch_once(&onceToken, ^{ \
+//sharedInstance = block(); \
+//}); \
+//return sharedInstance; 
+//
 enum{
     SocketOfflineByServer,//服务器掉线默认为0
     SocketOfflineByUser,//用户主动cut
