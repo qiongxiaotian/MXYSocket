@@ -7,13 +7,9 @@
 //
 
 #import "socketDemo.h"
-
 #import <sys/socket.h>
-
 #import <netinet/in.h>
-
 #import <arpa/inet.h>
-
 #import <unistd.h>
 
 @implementation socketDemo
@@ -27,7 +23,6 @@
     dispatch_once(&onceToken, ^{
         sharedInstance = [[self alloc]init];
     });
-    
     return sharedInstance;
 }
 
@@ -56,9 +51,7 @@
     NSString *longConnect = @"playy\n\n";
     NSLog(@"%@",longConnect);
     NSData   *dataStream  = [longConnect dataUsingEncoding:NSUTF8StringEncoding];
-    
     [self.socket writeData:dataStream withTimeout:30 tag:1];
-
 }
 //切断socket
 - (void)cutOffSocket{

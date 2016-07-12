@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2996F739E6541FA4BB7587AA /* libPods-MXYSocketGCDUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECA0557EBCAC86E96CA9039 /* libPods-MXYSocketGCDUITests.a */; };
+		6E3457441D34C83F00FAB866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3457431D34C83F00FAB866 /* main.m */; };
+		6E3457471D34C83F00FAB866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3457461D34C83F00FAB866 /* AppDelegate.m */; };
+		6E34574A1D34C83F00FAB866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3457491D34C83F00FAB866 /* ViewController.m */; };
+		6E34574D1D34C83F00FAB866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E34574B1D34C83F00FAB866 /* Main.storyboard */; };
+		6E34574F1D34C83F00FAB866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E34574E1D34C83F00FAB866 /* Assets.xcassets */; };
+		6E3457521D34C83F00FAB866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3457501D34C83F00FAB866 /* LaunchScreen.storyboard */; };
+		6E34575D1D34C84200FAB866 /* MXYSocketGCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E34575C1D34C84200FAB866 /* MXYSocketGCDTests.m */; };
+		6E3457681D34C84400FAB866 /* MXYSocketGCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3457671D34C84400FAB866 /* MXYSocketGCDUITests.m */; };
+		6E3457771D34CF0300FAB866 /* SocketDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3457761D34CF0300FAB866 /* SocketDemo.m */; };
+		ED19C53799F7F2E53C7EBEBC /* libPods-MXYSocketGCD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8DCB50E7735D9778696C54 /* libPods-MXYSocketGCD.a */; };
+		FC55E39F408F5479BCCDC7B4 /* libPods-MXYSocketGCDTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93756F8246B7F43D0C58FC0D /* libPods-MXYSocketGCDTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E3457591D34C84200FAB866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3457371D34C83D00FAB866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E34573E1D34C83D00FAB866;
+			remoteInfo = MXYSocketGCD;
+		};
+		6E3457641D34C84300FAB866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3457371D34C83D00FAB866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E34573E1D34C83D00FAB866;
+			remoteInfo = MXYSocketGCD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F8DCB50E7735D9778696C54 /* libPods-MXYSocketGCD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MXYSocketGCD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47838CF9A44573F8B44E33CA /* Pods-MXYSocketGCD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXYSocketGCD.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXYSocketGCD/Pods-MXYSocketGCD.release.xcconfig"; sourceTree = "<group>"; };
+		5EB10BE5DB3487E4F889CDCB /* Pods-MXYSocketGCDUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXYSocketGCDUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXYSocketGCDUITests/Pods-MXYSocketGCDUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63D66B426390A12940362296 /* Pods-MXYSocketGCDUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXYSocketGCDUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXYSocketGCDUITests/Pods-MXYSocketGCDUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68426A32DF082EC93F11D5F3 /* Pods-MXYSocketGCDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXYSocketGCDTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXYSocketGCDTests/Pods-MXYSocketGCDTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E34573F1D34C83D00FAB866 /* MXYSocketGCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXYSocketGCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3457431D34C83F00FAB866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E3457451D34C83F00FAB866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E3457461D34C83F00FAB866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E3457481D34C83F00FAB866 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E3457491D34C83F00FAB866 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E34574C1D34C83F00FAB866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E34574E1D34C83F00FAB866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E3457511D34C83F00FAB866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E3457531D34C84000FAB866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3457581D34C84200FAB866 /* MXYSocketGCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXYSocketGCDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E34575C1D34C84200FAB866 /* MXYSocketGCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXYSocketGCDTests.m; sourceTree = "<group>"; };
+		6E34575E1D34C84300FAB866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3457631D34C84300FAB866 /* MXYSocketGCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXYSocketGCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3457671D34C84400FAB866 /* MXYSocketGCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXYSocketGCDUITests.m; sourceTree = "<group>"; };
+		6E3457691D34C84400FAB866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3457751D34CF0300FAB866 /* SocketDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketDemo.h; sourceTree = "<group>"; };
+		6E3457761D34CF0300FAB866 /* SocketDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketDemo.m; sourceTree = "<group>"; };
+		6ECA0557EBCAC86E96CA9039 /* libPods-MXYSocketGCDUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MXYSocketGCDUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93756F8246B7F43D0C58FC0D /* libPods-MXYSocketGCDTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MXYSocketGCDTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05472B2F5D64C69D337D522 /* Pods-MXYSocketGCD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXYSocketGCD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXYSocketGCD/Pods-MXYSocketGCD.debug.xcconfig"; sourceTree = "<group>"; };
+		E964968478A1A20C7486A239 /* Pods-MXYSocketGCDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXYSocketGCDTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXYSocketGCDTests/Pods-MXYSocketGCDTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E34573C1D34C83D00FAB866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED19C53799F7F2E53C7EBEBC /* libPods-MXYSocketGCD.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3457551D34C84200FAB866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC55E39F408F5479BCCDC7B4 /* libPods-MXYSocketGCDTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3457601D34C84300FAB866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2996F739E6541FA4BB7587AA /* libPods-MXYSocketGCDUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F948CBEE0E04E03608B8A24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D05472B2F5D64C69D337D522 /* Pods-MXYSocketGCD.debug.xcconfig */,
+				47838CF9A44573F8B44E33CA /* Pods-MXYSocketGCD.release.xcconfig */,
+				68426A32DF082EC93F11D5F3 /* Pods-MXYSocketGCDTests.debug.xcconfig */,
+				E964968478A1A20C7486A239 /* Pods-MXYSocketGCDTests.release.xcconfig */,
+				5EB10BE5DB3487E4F889CDCB /* Pods-MXYSocketGCDUITests.debug.xcconfig */,
+				63D66B426390A12940362296 /* Pods-MXYSocketGCDUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E3457361D34C83C00FAB866 = {
+			isa = PBXGroup;
+			children = (
+				6E3457411D34C83E00FAB866 /* MXYSocketGCD */,
+				6E34575B1D34C84200FAB866 /* MXYSocketGCDTests */,
+				6E3457661D34C84300FAB866 /* MXYSocketGCDUITests */,
+				6E3457401D34C83D00FAB866 /* Products */,
+				0F948CBEE0E04E03608B8A24 /* Pods */,
+				AF112A90E5F6E4681C0B135B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E3457401D34C83D00FAB866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E34573F1D34C83D00FAB866 /* MXYSocketGCD.app */,
+				6E3457581D34C84200FAB866 /* MXYSocketGCDTests.xctest */,
+				6E3457631D34C84300FAB866 /* MXYSocketGCDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E3457411D34C83E00FAB866 /* MXYSocketGCD */ = {
+			isa = PBXGroup;
+			children = (
+				6E3457451D34C83F00FAB866 /* AppDelegate.h */,
+				6E3457461D34C83F00FAB866 /* AppDelegate.m */,
+				6E3457481D34C83F00FAB866 /* ViewController.h */,
+				6E3457491D34C83F00FAB866 /* ViewController.m */,
+				6E3457751D34CF0300FAB866 /* SocketDemo.h */,
+				6E3457761D34CF0300FAB866 /* SocketDemo.m */,
+				6E34574B1D34C83F00FAB866 /* Main.storyboard */,
+				6E34574E1D34C83F00FAB866 /* Assets.xcassets */,
+				6E3457501D34C83F00FAB866 /* LaunchScreen.storyboard */,
+				6E3457531D34C84000FAB866 /* Info.plist */,
+				6E3457421D34C83F00FAB866 /* Supporting Files */,
+			);
+			path = MXYSocketGCD;
+			sourceTree = "<group>";
+		};
+		6E3457421D34C83F00FAB866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E3457431D34C83F00FAB866 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E34575B1D34C84200FAB866 /* MXYSocketGCDTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E34575C1D34C84200FAB866 /* MXYSocketGCDTests.m */,
+				6E34575E1D34C84300FAB866 /* Info.plist */,
+			);
+			path = MXYSocketGCDTests;
+			sourceTree = "<group>";
+		};
+		6E3457661D34C84300FAB866 /* MXYSocketGCDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E3457671D34C84400FAB866 /* MXYSocketGCDUITests.m */,
+				6E3457691D34C84400FAB866 /* Info.plist */,
+			);
+			path = MXYSocketGCDUITests;
+			sourceTree = "<group>";
+		};
+		AF112A90E5F6E4681C0B135B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F8DCB50E7735D9778696C54 /* libPods-MXYSocketGCD.a */,
+				93756F8246B7F43D0C58FC0D /* libPods-MXYSocketGCDTests.a */,
+				6ECA0557EBCAC86E96CA9039 /* libPods-MXYSocketGCDUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E34573E1D34C83D00FAB866 /* MXYSocketGCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E34576C1D34C84400FAB866 /* Build configuration list for PBXNativeTarget "MXYSocketGCD" */;
+			buildPhases = (
+				AD03A05B2FB6B43EE88A8DB5 /* [CP] Check Pods Manifest.lock */,
+				6E34573B1D34C83D00FAB866 /* Sources */,
+				6E34573C1D34C83D00FAB866 /* Frameworks */,
+				6E34573D1D34C83D00FAB866 /* Resources */,
+				B9F07A40E97C2E8BB2BD6416 /* [CP] Embed Pods Frameworks */,
+				14FB0D9ED0CBB4BD29695B2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXYSocketGCD;
+			productName = MXYSocketGCD;
+			productReference = 6E34573F1D34C83D00FAB866 /* MXYSocketGCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E3457571D34C84200FAB866 /* MXYSocketGCDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E34576F1D34C84400FAB866 /* Build configuration list for PBXNativeTarget "MXYSocketGCDTests" */;
+			buildPhases = (
+				157B97EAFA928755D3BE405F /* [CP] Check Pods Manifest.lock */,
+				6E3457541D34C84200FAB866 /* Sources */,
+				6E3457551D34C84200FAB866 /* Frameworks */,
+				6E3457561D34C84200FAB866 /* Resources */,
+				CD067FADFA4D751D0E7D5069 /* [CP] Embed Pods Frameworks */,
+				FFB3D3FC3BFDCFC8B2B2CAE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E34575A1D34C84200FAB866 /* PBXTargetDependency */,
+			);
+			name = MXYSocketGCDTests;
+			productName = MXYSocketGCDTests;
+			productReference = 6E3457581D34C84200FAB866 /* MXYSocketGCDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E3457621D34C84300FAB866 /* MXYSocketGCDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3457721D34C84400FAB866 /* Build configuration list for PBXNativeTarget "MXYSocketGCDUITests" */;
+			buildPhases = (
+				018B37DF81B6BF1726145755 /* [CP] Check Pods Manifest.lock */,
+				6E34575F1D34C84300FAB866 /* Sources */,
+				6E3457601D34C84300FAB866 /* Frameworks */,
+				6E3457611D34C84300FAB866 /* Resources */,
+				B02AB3E927AA172E3C19820A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3457651D34C84300FAB866 /* PBXTargetDependency */,
+			);
+			name = MXYSocketGCDUITests;
+			productName = MXYSocketGCDUITests;
+			productReference = 6E3457631D34C84300FAB866 /* MXYSocketGCDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E3457371D34C83D00FAB866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = heivr.mxy;
+				TargetAttributes = {
+					6E34573E1D34C83D00FAB866 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6E3457571D34C84200FAB866 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6E34573E1D34C83D00FAB866;
+					};
+					6E3457621D34C84300FAB866 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6E34573E1D34C83D00FAB866;
+					};
+				};
+			};
+			buildConfigurationList = 6E34573A1D34C83D00FAB866 /* Build configuration list for PBXProject "MXYSocketGCD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E3457361D34C83C00FAB866;
+			productRefGroup = 6E3457401D34C83D00FAB866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E34573E1D34C83D00FAB866 /* MXYSocketGCD */,
+				6E3457571D34C84200FAB866 /* MXYSocketGCDTests */,
+				6E3457621D34C84300FAB866 /* MXYSocketGCDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E34573D1D34C83D00FAB866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3457521D34C83F00FAB866 /* LaunchScreen.storyboard in Resources */,
+				6E34574F1D34C83F00FAB866 /* Assets.xcassets in Resources */,
+				6E34574D1D34C83F00FAB866 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3457561D34C84200FAB866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3457611D34C84300FAB866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		018B37DF81B6BF1726145755 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14FB0D9ED0CBB4BD29695B2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXYSocketGCD/Pods-MXYSocketGCD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		157B97EAFA928755D3BE405F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD03A05B2FB6B43EE88A8DB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B02AB3E927AA172E3C19820A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXYSocketGCDUITests/Pods-MXYSocketGCDUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F07A40E97C2E8BB2BD6416 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXYSocketGCD/Pods-MXYSocketGCD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD067FADFA4D751D0E7D5069 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXYSocketGCDTests/Pods-MXYSocketGCDTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFB3D3FC3BFDCFC8B2B2CAE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXYSocketGCDTests/Pods-MXYSocketGCDTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E34573B1D34C83D00FAB866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E34574A1D34C83F00FAB866 /* ViewController.m in Sources */,
+				6E3457771D34CF0300FAB866 /* SocketDemo.m in Sources */,
+				6E3457471D34C83F00FAB866 /* AppDelegate.m in Sources */,
+				6E3457441D34C83F00FAB866 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3457541D34C84200FAB866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E34575D1D34C84200FAB866 /* MXYSocketGCDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E34575F1D34C84300FAB866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3457681D34C84400FAB866 /* MXYSocketGCDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E34575A1D34C84200FAB866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E34573E1D34C83D00FAB866 /* MXYSocketGCD */;
+			targetProxy = 6E3457591D34C84200FAB866 /* PBXContainerItemProxy */;
+		};
+		6E3457651D34C84300FAB866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E34573E1D34C83D00FAB866 /* MXYSocketGCD */;
+			targetProxy = 6E3457641D34C84300FAB866 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E34574B1D34C83F00FAB866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E34574C1D34C83F00FAB866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E3457501D34C83F00FAB866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3457511D34C83F00FAB866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E34576A1D34C84400FAB866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E34576B1D34C84400FAB866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E34576D1D34C84400FAB866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05472B2F5D64C69D337D522 /* Pods-MXYSocketGCD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MXYSocketGCD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heivr.MXYSocketGCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E34576E1D34C84400FAB866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47838CF9A44573F8B44E33CA /* Pods-MXYSocketGCD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MXYSocketGCD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heivr.MXYSocketGCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E3457701D34C84400FAB866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68426A32DF082EC93F11D5F3 /* Pods-MXYSocketGCDTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MXYSocketGCDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heivr.MXYSocketGCDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXYSocketGCD.app/MXYSocketGCD";
+			};
+			name = Debug;
+		};
+		6E3457711D34C84400FAB866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E964968478A1A20C7486A239 /* Pods-MXYSocketGCDTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MXYSocketGCDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heivr.MXYSocketGCDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXYSocketGCD.app/MXYSocketGCD";
+			};
+			name = Release;
+		};
+		6E3457731D34C84400FAB866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB10BE5DB3487E4F889CDCB /* Pods-MXYSocketGCDUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MXYSocketGCDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heivr.MXYSocketGCDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MXYSocketGCD;
+			};
+			name = Debug;
+		};
+		6E3457741D34C84400FAB866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D66B426390A12940362296 /* Pods-MXYSocketGCDUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MXYSocketGCDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heivr.MXYSocketGCDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MXYSocketGCD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E34573A1D34C83D00FAB866 /* Build configuration list for PBXProject "MXYSocketGCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E34576A1D34C84400FAB866 /* Debug */,
+				6E34576B1D34C84400FAB866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E34576C1D34C84400FAB866 /* Build configuration list for PBXNativeTarget "MXYSocketGCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E34576D1D34C84400FAB866 /* Debug */,
+				6E34576E1D34C84400FAB866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E34576F1D34C84400FAB866 /* Build configuration list for PBXNativeTarget "MXYSocketGCDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3457701D34C84400FAB866 /* Debug */,
+				6E3457711D34C84400FAB866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3457721D34C84400FAB866 /* Build configuration list for PBXNativeTarget "MXYSocketGCDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3457731D34C84400FAB866 /* Debug */,
+				6E3457741D34C84400FAB866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E3457371D34C83D00FAB866 /* Project object */;
+}
